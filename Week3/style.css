@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  height: 100vh;
+}
+
+.main-nav {
+  background-color: aquamarine;
+  width: fit-content;
+}
+header {
+  width: 50%;
+}
+.logo-muumimuseo-fi {
+  padding: 10px;
+  margin-left: 75px;
+  width: fit-content;
+}
+ul {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 450px;
+  list-style: none;
+  padding-bottom: 40px;
+}
+li {
+  font-size: 25px;
+  padding: 10px;
+}
+a {
+  color: black;
+}
+
+.Headline-Photo {
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 175px;
+  margin-bottom: 0;
+}
+.boat-photo {
+  width: fit-content;
+  margin-top: 0;
+  margin-left: 100px;
+  position: relative;
+}
+.main-banner {
+  position: absolute;
+  background-color: rosybrown;
+  width: 500px;
+  text-align: center;
+  padding: 10px 85px 15px;
+  margin-left: 400px;
+  margin-top: -450px;
+}
+.Info-Pic {
+  background: #a52a2a;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 850px;
+  margin-top: -425px;
+  position: absolute;
+}
+.Info-Pic p {
+  text-align: center;
+  line-height: 125px;
+  font-size: 36px;
+  color: #fff;
+}
+.mid-info-line {
+  background: #35733c;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 18px;
+  margin-top: -25px;
+}
+.first-theme {
+  background: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding: 50px;
+  background: gray;
+}
+.Info-White {
+  width: fit-content;
+  padding: 50px;
+  margin-right: 750px;
+}
+.Info-White h2 {
+  font-size: 30px;
+}
+
+.Info-White p {
+  font-size: 16px;
+}
+.museum-photo {
+  position: absolute;
+  margin-left: 680px;
+  margin-top: -400px;
+}
+.museum-photo img {
+  width: 500px;
+  height: 350px;
+}
+.theme {
+  background: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding: 50px;
+  background: gray;
+}
+.Info1 {
+  width: fit-content;
+  padding: 50px;
+  margin-right: 750px;
+}
+.Info1 h2 {
+  font-size: 30px;
+}
+.Info1 p {
+  font-size: 16px;
+}
+.Info2 {
+  width: fit-content;
+  padding: 50px;
+
+  margin-left: 500px;
+  margin-top: -350px;
+  padding-right: 375px;
+  position: absolute;
+}
+.Info2 h2 {
+  font-size: 30px;
+}
+.Info2 p {
+  font-size: 16px;
+}
+.Info3 {
+  width: fit-content;
+  padding: 50px;
+  margin-left: 800px;
+  margin-top: -350px;
+  padding-right: 20px;
+  position: absolute;
+}
+.Info3 h2 {
+  font-size: 30px;
+}
+.Info3 p {
+  font-size: 16px;
+}
+.date {
+  color: #8fbc8f;
+}
+.last-line {
+  color: #8fbc8f;
+}
+.bottom-ad {
+  width: fit-content;
+  text-align: center;
+  padding: 50px;
+  background: #7ab7bc;
+}
+.bottom-ad h2 {
+  font-size: 30px;
+}
+.bottom-ad p {
+  font-size: 18px;
+}
+.circle2 {
+  background: #a52a2a;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 1100px;
+  margin-top: -210px;
+  position: absolute;
+}
+.circle2 p {
+  text-align: center;
+  line-height: 125px;
+  font-size: 32px;
+  color: #fff;
+}
+.gallery-photo img {
+  width: 500px;
+  height: 350px;
+}
+.More_Info {
+  width: fit-content;
+  padding: 50px;
+  margin-left: 500px;
+  margin-top: -350px;
+  position: absolute;
+}
+.More_Info h2 {
+  font-size: 30px;
+}
+.More_Info p {
+  font-size: 16px;
+}
+.last-line2 {
+  color: #8fbc8f;
+}
+.bottom-ad2 {
+  width: fit-content;
+  text-align: center;
+  padding: 50px;
+  background: #7ab7bc;
+}
+.bottom-ad2 h2 {
+  font-size: 30px;
+}
+.bottom-ad2 p {
+  font-size: 16px;
+}
+.circle3 {
+  background: #a52a2a;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 1100px;
+  margin-top: -210px;
+  position: absolute;
+}
+.circle3 p {
+  text-align: center;
+  line-height: 125px;
+  font-size: 45px;
+  color: #fff;
+}
+.date2 {
+  color: #fff;
+}
+.bottom-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: #228b22;
+  padding: 40px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  background: #fff;
+}
+.copyright {
+  padding: 15px;
+}
